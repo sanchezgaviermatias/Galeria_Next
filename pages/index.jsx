@@ -6,6 +6,8 @@ const listLinks = [
   { url: "/buttons", name: "Buttons" },
   { url: "/colections", name: "Colections" },
   { url: "/cards", name: "Cards" },
+  { url: "/playground", name: "Playground" },
+  { url: "/playground", name: "Playground" },
 ];
 
 export default function Home() {
