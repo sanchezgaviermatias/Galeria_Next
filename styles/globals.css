@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+	.tag{
+		@apply underline-offset-1 underline decoration-2 decoration-orange-500
+}
+}

@@ -6,7 +6,10 @@ export default function blackImageCard() {
     "https://www.lifeder.com/wp-content/uploads/2022/01/montana.jpg";
 
   return (
-    <div className="max-w-md  bg-white rounded-lg border border-gray-200 shadow-md ">
+    <div
+      className="max-w-md  bg-white rounded-lg border
+     border-gray-200 shadow-md"
+    >
       <a href="#">
         <img className="rounded-t-lg" src={srcImagen} alt="" />
       </a>
@@ -22,7 +25,9 @@ export default function blackImageCard() {
         </p>
         <a
           href="#"
-          className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
+          className="inline-flex items-center py-2 px-3 text-sm font-medium text-center 
+          text-white bg-blue-700 rounded-lg hover:bg-blue-800 
+          focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
           Read more
           <svg
